@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #222;
+            line-height: 1.5;
+        }
+        header {
+            background-color: #1a3c34;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.3rem;
+        }
+        header p {
+            font-size: 1rem;
+        }
+        nav {
+            background-color: #2e5c54;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            color: #a3d4cc;
+        }
+        section {
+            max-width: 900px;
+            margin: 1.5rem auto;
+            padding: 1.5rem;
+            background: #fff;
+            border: 1px solid #ddd;
+        }
+        h2 {
+            font-size: 1.6rem;
+            color: #1a3c34;
+            margin-bottom: 1rem;
+        }
+        .bio {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+        }
+        .bio img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #a3d4cc;
+        }
+        .bio p {
+            margin-bottom: 0.8rem;
+            font-size: 1rem;
+        }
+        .skills ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+        }
+        .skills li {
+            background: #a3d4cc;
+            color: #222;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        .experience .job {
+            margin-bottom: 1.2rem;
+        }
+        .experience h3 {
+            font-size: 1.2rem;
+            color: #1a3c34;
+            margin-bottom: 0.2rem;
+        }
+        .experience .job-date {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 0.4rem;
+        }
+        .contact p {
+            margin: 0.5rem 0;
+            font-size: 1rem;
+        }
+        .contact a {
+            color: #1a3c34;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            nav a {
+                margin: 0 0.5rem;
+                font-size: 0.9rem;
+            }
+            section {
+                margin: 1rem;
+                padding: 1rem;
+            }
+            h2 {
+                font-size: 1.4rem;
+            }
+            .bio {
+                flex-direction: column;
+                align-items: center;
+            }
+            .bio img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ushri Paul</h1>
+        <p>Web Developer | Creating Modern & Responsive Websites</p>
+    </header>
+    <nav>
+        <a href="#bio">Bio</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="bio" class="bio">
+        <h2>Bio</h2>
+        <img src="https://i.ibb.co/NRgZzJF/mine.jpg" alt="My picture">
+        <p>I'm Ushri Paul, a web developer with a passion for building clean, efficient, and user-friendly websites. With a strong foundation in front-end technologies, I enjoy turning ideas into functional digital experiences.</p>
+        <p>In my free time, I explore new web development trends, contribute to open-source projects, and enjoy photography.</p>
+    </section>
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+            <li>Git</li>
+            <li>Responsive Design</li>
+        </ul>
+    </section>
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <div class="internship">
+            <h3>Gen AI Intern - AI Wallah</h3>
+            <p class="internship-date">May 2025 - June 2025</p>
+            <p>Built impressive AI projects and exposed to APIs of Gemini,ChatGpt,Grok,Groq,ElevenLabs.on-device models etc.</p>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:ushripaul@example.com">ushripaul04@gmail.com</a></p>
+        <p>Phone: +917047829157</p>
+    </section>
+</body>
+</html>
